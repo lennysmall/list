@@ -36,7 +36,7 @@ public class StudentScore implements Comparable<StudentScore>{
 		//return name.compareTo(o.name);//작으면 음수, 같으면 0, 크면 양수 반환 		
 		int total1 =getSum();
 		int total2 = o.getSum();
-		
+		//주석
 		return total1>total2?1:total1<total2?-1:0;
 		
 		

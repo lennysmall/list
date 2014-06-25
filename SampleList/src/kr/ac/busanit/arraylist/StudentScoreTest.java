@@ -15,9 +15,10 @@ public class StudentScoreTest {
 		list.add(new StudentScore("2pm", 90, 80, 70));
 		list.add(new StudentScore("2am", 90, 80, 70));
 		list.add(new StudentScore("김기동", 90, 80, 70));
-		
+		//주석
 		ShowList(list);
-		
+		//내림차순으로 정렬하려면 스튜던트스코어세서 컴페어두 리턴에 -를 붙여주거나
+		//스투턴스코어테스트 컬렉션.sort(list, Collections.reversOrder());하자
 		Collections.sort(list);
 		System.out.println(list);
 		
